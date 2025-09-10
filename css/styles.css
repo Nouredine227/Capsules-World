@@ -93,22 +93,17 @@ footer {
   align-items: center;
 }
 
-.preview-item {
+.carousel-track img {
   display: inline-block;
-  margin: 0 8px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 12px;
-  overflow: hidden;
+  margin: 0 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
   transition: transform 0.3s;
 }
 
-.preview-item:hover {
+.carousel-track img:hover {
   transform: scale(1.05);
-}
-
-.preview-item img {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
-  display: block;
 }
