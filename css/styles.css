@@ -68,3 +68,47 @@ footer {
 .title {
   color: #164e86;
 }
+
+.game-previews {
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.game-previews h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #444 #222;
+  padding-bottom: 10px;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+}
+
+.preview-item {
+  display: inline-block;
+  margin: 0 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+.preview-item:hover {
+  transform: scale(1.05);
+}
+
+.preview-item img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
